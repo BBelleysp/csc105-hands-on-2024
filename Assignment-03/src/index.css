@@ -1,0 +1,81 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  /* background-color: #f8f9fa; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.calculator {
+  background: rgb(255, 226, 226);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+}
+.calculator-input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;  
+}
+h2 {
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline
+}
+.calculator-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; 
+  margin-top: 15px;
+}
+button {
+  padding: 10px 15px;
+  margin: 3px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-add {
+  background: #ffffc1;
+  color: rgb(151, 110, 110);
+}
+
+.button-subtract {
+  background: #fffb8b;
+  color: rgb(151, 110, 110);
+}
+
+.button-multiply {
+  background: #ffda75;
+  color: rgb(151, 110, 110);
+}
+
+.button-divide {
+  background: #ffa963;
+  color: rgb(255, 255, 255);
+}
+
+.button-reset-input {
+  background: #ff619b;
+  color: white;
+}
+
+.button-reset-result {
+  background: #dc3545;
+  color: rgb(255, 255, 255); 
+}
+button:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
