@@ -1,0 +1,102 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  margin: 0;
+}
+
+.container {
+  background: rgba(216, 245, 255, 0.174);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.input-field {
+  width: 60%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.add-button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #a8ffbc;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+.shopping-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.list-item.bought {
+  text-decoration: line-through;
+  background-color: #d2f2ff;
+}
+
+.button-group {
+  display: flex;
+  gap: 5px;
+}
+
+.remove-button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #ffa0aa;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}
+
+.edit-button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #ffecb2;
+  color: black;
+  font-size: 16px;
+}
+
+.edit-button:hover {
+  background-color: #e0a800;
+}
+
+
