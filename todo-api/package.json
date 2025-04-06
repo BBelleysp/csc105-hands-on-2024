@@ -1,5 +1,5 @@
 {
-  "name": "My-first-todo-backend",
+  "name": "todo-api",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts"

@@ -6,6 +6,8 @@ const app = new Hono()
 app.get('/', (c) => {
   return c.text('Hello Hono!')
 })
+// Mount เส้นทาง
+app.route('/todos', todoRoutes); 
 
 serve({
   fetch: app.fetch,
